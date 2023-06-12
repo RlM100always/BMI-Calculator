@@ -32,10 +32,22 @@ A simple Android app that calculates the Body Mass Index (BMI) based on user inp
 1. Clone the repository: `git clone https://github.com/your-username/BMI-Calculator.git`
 2. Open the project in Android Studio.
 3. Build and run the app on your device or emulator.
-4. 
+
+### If you want download apk file 
+
+- Click the below download link 
+- You may be prompted to enable "Unknown sources" in your device's settings. Follow the on-screen instructions to enable the installation of apps from sources other than the Google Play Store.
+
+- After enabling "Unknown sources," tap on the APK file again to begin the installation.
+
+- Review the app permissions, if prompted, and proceed with the installation by tapping "Install" or "Next."
+
+- Once the installation is complete, you can find the app in your device's app drawer or on the home screen.
+
+- [Click Here to download APK file](https://github.com/RlM100always/BMI-Calculator/blob/main/apk/app-release.apk).
+
 ## Contributing
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please feel free to open an issue or submit a pull request.
 
-### If you want download apk file : 
 
 
