@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#F9F8F8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/bmi_background"
+        android:layout_height="250dp"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:background="#F10492"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewId"
+            android:gravity="center"
+            android:textStyle="bold"
+            style="@style/Theme.AppCompat"
+            android:layout_width="match_parent"
+            android:textColor="#EDE107"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:text="@string/height" />
+
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/editTextId"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:ems="10"
+            android:gravity="center"
+            android:background="@color/cardview_light_background"
+            android:inputType="number"
+            android:textSize="25sp"
+            android:hint="@string/foot" />
+
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/editTextId2"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:ems="10"
+            android:gravity="center"
+            android:background="@color/cardview_light_background"
+            android:inputType="number"
+            android:textSize="25sp"
+            android:hint="@string/inch" />
+
+
+        <TextView
+            android:id="@+id/textViewId2"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#F0F407"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/weight" />
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/editTextId3"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:ems="10"
+            android:gravity="center"
+            android:background="@color/cardview_light_background"
+            android:inputType="number"
+            android:textSize="25sp"
+            android:hint="Give your weight in kg" />
+
+        <Button
+            android:id="@+id/button"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#060606"
+            android:textSize="20sp"
+            android:backgroundTint="#518421"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRESS HERE" />
+
+
+    </LinearLayout>
+</LinearLayout>

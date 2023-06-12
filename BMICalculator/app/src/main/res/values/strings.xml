@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="height">আপনার উচ্চতা দিন : </string>
+    <string name="foot">Give your height in feet</string>
+    <string name="inch">Give your height in inches</string>
+    <string name="weight">আপনার ওজন দিন : </string>
+</resources>
